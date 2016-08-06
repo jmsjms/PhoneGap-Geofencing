@@ -29,6 +29,7 @@
 
 @synthesize locationData, locationManager;
 
+/*
 - (CDVPlugin*)initWithWebView:(UIWebView*)theWebView
 {
     self = (DGGeofencing*)[super initWithWebView:(UIWebView*)theWebView];
@@ -50,6 +51,7 @@
     }
     return self;
 }
+*/
 
 #pragma mark Location and Geofencing Permissions
 - (BOOL) isSignificantLocationChangeMonitoringAvailable
